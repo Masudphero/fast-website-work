@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Merriweather", serif;
+}
+
+/* baner conteiner box */
+.banner-coteiner{
+    max-width: 1320px;
+    margin: 0 auto;
+    border: 2px solid black;
+    min-height: 600px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+.banner-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 600px;
+align-items: center;
+
+
+}
+.banner-content{
+    color: white;
+    font-size: 52px;
+    font-weight: 900;
+   
+}
+
+
+/* maine section style  */
+.second-section-conteiner{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    margin-top: 90px;
+   
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.content h1{
+    color: rgb(255, 0, 0);
+font-size: 80px;
+font-weight: 700;
+}
+
+.content p{
+    color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+}
+.content h3{
+color: rgb(7, 2, 17);
+    font-size: 40px;
+    font-weight: 700px;
+
+}
+.image-conteiner{
+    height: 100%;
+    width: 100%;
+}
+
+/* midnight-perty-conteiner */
+.midnight-perty-conteiner{
+    width: 1320px;
+    height: 600px;
+   border: 2px solid red;
+   margin: 0 auto;
+   display: flex;
+   background-repeat: no-repeat;
+   background-color: rgba(0, 0, 0, 0.5);
+   background-image: url(../images/Vectorrr.png);
+   background-position: center;
+   background-size: cover;
+   background-blend-mode: overlay;
+   margin-top: 80px;
+
+   
+  
+ 
+}
+.leftsit-cntent{
+    width: 50%;
+    height: 600px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-position: center;
+}
+.leftsit-cntent p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.leftsit-cntent h1{
+  width: 642px;
+  height: 176px;
+ text-align: righ;
+}
+
+
+.leftsit-cntent h1{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900px;
+}
+.rightsit-content{
+    width: 349.16px;
+    height: 464.65px;
+    padding-top: 100px ;
+    padding-left: 170px;
+}
+#midnight-join{
+  
+  
+
+  
+}
+.batons{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* thard bannner sid */
+.thard-banner{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    padding-top: 30px;
+
+    
+}
+.thard-bagraund{
+    text-align: center;
+    font-size: 27px;
+font-weight: 600;
+margin-top: 150px;
+}
+.reding{
+    color: red;
+}
+
+     
+.forth-section h1{
+    font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+
+}
+.forth-section h3{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+}
+.forth-section p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.raund-section img{
+border: 10px solid brown;
+border-radius: 50%;
+}
+.runded{
+    display: flex;
+    width: 1320px;
+    height: 482px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
